@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "eliostruyf.spfx-snippets",
+        "steoates.autoimport",
+        "aaron-bond.better-comments",
+        "eamodio.gitlens",
+        "codeandstuff.package-json-upgrade",
+        "christian-kohler.path-intellisense"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "@mycorp/somelib",
+    "version": "0.9.0",
+    "license": "SEE LICENCE IN LICENCE.md",
+    "author": "me",
+    "module": "lib/index.js",
+    "typings": "lib/index.d.ts",
+    "scripts": {
+        "build": "tsc --build --pretty -v",
+        "clean": "rimraf -g lib *.tsbuildinfo .turbo"
+    },
+    "devDependencies": {
+        "rimraf": "^5.0.1",
+        "tslib": "^2.6.0",
+        "typescript": "4.5.5"
+    }
+}

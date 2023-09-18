@@ -1,0 +1,16 @@
+.pnpm-store
+**/node_modules
+**/dist
+**/lib
+**/lib-cjs
+**/temp
+**/release
+*.tsbuildinfo
+.idea
+_tmp_*
+.turbo
+.eslintcache
+.pnpm-debug.log
+.rollup.cache
+.nx
+coverage
