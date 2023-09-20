@@ -2,12 +2,10 @@
     "name": "mycorp",
     "private": true,
     "scripts": {
+        "build-all" : "turbo build",
         "clean" : "rimraf .turbo && pnpm -r run clean"
     },
-    "engines": {
-        "pnpm": ">=8.7.0",
-        "node": ">=16.20.0 <17.0.0"
-    },
+
     "devDependencies": {
         "pnpm": "^8.7.0",
         "rimraf": "^5.0.1",
